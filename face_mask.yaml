@@ -1,0 +1,13 @@
+# Path to the dataset root folder
+path: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/face_mask_detection_project/face_mask_splitted
+
+# Relative paths to image datasets
+train: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/face_mask_detection_project/face_mask_splitted/images/train
+val: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/face_mask_detection_project/face_mask_splitted/images/val
+test: C:/Users/hp/Osasere_data_science/opencv_beginner_2/yolov8-cpu/face_mask_detection_project/face_mask_splitted/images/test  # Optional
+
+# Number of classes (update this based on your dataset)
+nc: 3
+
+# List of class names
+names: ["Mask", "No Mask", "Bad Mask"]
